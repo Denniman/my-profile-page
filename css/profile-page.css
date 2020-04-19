@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #f1f1f1;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.profile-container {
+    width: 630px;
+    height: 630px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.dennis-id {
+    width: 30%;
+    height: 45px;
+    background-color: #7f00ff;
+    color: #ffffff;
+    transform: translate(220px, 100px);
+    text-align: center;
+    box-shadow: 0px 1px 10px 1px #000;
+    border-color: rgb(8, 62, 158);
+    border-radius: 0.75rem;
+}
+
+span {
+ margin-left: 10px;
+ line-height: 50px;
+ color: #3af800;
+ font-family: 'Lexend Giga', sans-serif;
+ font-weight: bold;
+}
+
+.about-section {
+    height: 100px;
+    background: #7f00ff;
+}
+
+.image-container {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(230px, 40px);
+}
+.image-container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.biodata {
+    width: 20%;
+    line-height: 20px;
+    border-radius: 0.75rem;
+    padding-left: 40px;
+    margin-top: 100px;
+    background-color: #7f00ff;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+    box-shadow: 0px 1px 10px 1px #000;
+    border-color: rgb(8, 62, 158);
+}
+
+ #p-biodata{
+    line-height: 20px;
+    padding: 20px;
+    color: #4a5568;
+    background-color: #fff;
+    border-radius: 0.75rem;
+}
+.profile-section {
+    background: #ff7f50;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.profile-section h4 {
+    color: #7f00ff;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .6;
+    font-weight: bold;
+}
+
+.profile-section p {
+    font-size: 16px;
+    font-family: Karla, sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+form {
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    border-radius: 1.25rem;
+}
+
+form label {
+  display: flex;
+  font-size: 0.75rem;
+  align-self: flex-start;
+  color: #4a5568;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"], input[type="email"], textarea  {
+    width: 96%;
+    height: 35px;
+    margin: 5px 0 22px 0;
+    background-color: #edf2f7;
+    font-family: Karla, sans-serif;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 0px;
+    color: #4a5568;
+    padding-left: 10px;
+}
+
+textarea {
+    height: 70px;
+}
+
+button {
+    width: 40%;
+    height: 30px;
+    background-color: #7f00ff;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    border: 0px;
+    border-color: rgb(8, 62, 158);
+    border-bottom-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+} 
